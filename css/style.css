@@ -222,7 +222,7 @@ img {
       rgba(48, 64, 89, 0.84),
       rgba(53, 65, 83, 0)
     ),
-    url("/img/special-offer/maldives-card.jpg");
+    url("../img/special-offer/maldives-card.jpg");
   width: 573px;
   height: 258px;
   border-radius: 15px;
@@ -274,7 +274,7 @@ img {
       rgba(48, 64, 89, 0.84),
       rgba(53, 65, 83, 0)
     ),
-    url("/img/special-offer/crete-card.jpg");
+    url("../img/special-offer/crete-card.jpg");
   width: 573px;
   height: 258px;
   border-radius: 15px;
@@ -282,7 +282,7 @@ img {
 
 .special-offer__right-cards {
   position: relative;
-  background-image: url("/img/special-offer/hotel-card.jpg");
+  background-image: url("../img/special-offer/hotel-card.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 543px;
