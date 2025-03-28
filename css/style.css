@@ -260,7 +260,6 @@ img {
 .special-offer__cards__link::before {
   content: "";
   position: absolute;
-  position: absolute;
   inset: 0;
 }
 
