@@ -199,7 +199,7 @@ img {
   transition: 0.5s ease;
 }
 
-/* section special-offer */
+/* section special */
 .special {
   padding-bottom: 70px;
 }
@@ -310,4 +310,80 @@ img {
 
 .right-cards__card {
   padding: 180px 229px 40px 45px;
+}
+
+/* section about */
+.about {
+  padding-bottom: 70px;
+}
+
+.about__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+  width: 888px;
+}
+
+/* section services */
+.services {
+  padding-bottom: 70px;
+}
+
+.services__list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.services__item {
+  width: 558px;
+  min-height: 330px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.services__link:focus-visible {
+  outline: 1px solid #cc9933;
+}
+
+.services__link__block {
+  padding: 26px 126px 35px 45px;
+}
+
+.services__link__block__icon {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.services__link__title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 200%;
+  color: #c93;
+  transition: 0.3s ease;
+}
+
+.services__link__block__icon path,
+.services__link__block__icon svg {
+  transition: 0.3s ease;
+}
+
+.services__link:hover .services__link__title {
+  color: #f0bf5f;
+}
+
+.services__link:hover .services__link__block__icon path {
+  stroke: #f0bf5f;
+}
+
+.services__link:hover .services__link__block__icon svg {
+  translate: 5px 0;
+}
+
+.services__link__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
 }
