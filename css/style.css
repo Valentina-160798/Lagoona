@@ -181,19 +181,19 @@ img {
   transition: color 0.5s;
 }
 
-.site__btn:hover {
+.site-btn:hover {
   background-color: #cc9933;
   color: #ffffff;
   transition: 0.5s ease;
 }
 
-.site__btn:focus-visible {
+.site-btn:focus-visible {
   background-color: #cc9933;
   color: #ffffff;
   transition: 0.5s ease;
 }
 
-.site__btn:active {
+.site-btn:active {
   background-color: #a47312;
   color: #ffffff;
   transition: 0.5s ease;
@@ -362,7 +362,6 @@ img {
   font-size: 20px;
   line-height: 200%;
   color: #c93;
-  transition: 0.3s ease;
 }
 
 .services__link__block__icon path,
@@ -386,4 +385,153 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 200%;
+}
+
+/* section benefints */
+.benefints {
+  padding-bottom: 70px;
+}
+
+.benefints__list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 22px;
+}
+
+.benefints__item {
+  width: 263px;
+  min-height: 276px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.benefints__item__block {
+  padding: 40px 42px 32px 45px;
+}
+
+.benefints__item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+}
+
+/* section hotels */
+.hotels {
+  padding-bottom: 70px;
+}
+
+.hotels__list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.hotels__item {
+  position: relative;
+  width: 342px;
+  min-height: 440px;
+  background-color: #fff;
+  border-radius: 15px;
+  transition: color 0.5s;
+}
+
+.hotels__btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.hotels__btn:hover {
+  color: #fff;
+}
+
+.hotels__block {
+  padding: 32px 45px 45px 45px;
+}
+
+.hotels__price {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.hotels__from {
+  font-weight: 400;
+  font-size: 16px;
+  color: #999;
+}
+
+.hotels__value {
+  font-weight: 700;
+  font-size: 20px;
+  color: #000;
+}
+
+.hotels__per-night {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+}
+
+.hotels__rating {
+  margin-left: 31px;
+}
+
+.hotels__name {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.hotels__location {
+  font-weight: 400;
+  font-size: 16px;
+  color: #999;
+  margin-bottom: 20px;
+}
+
+.hotels__card__last {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 373px;
+  transition: 0.3s ease;
+}
+
+.hotels__card__last--bg {
+  background-image: url("../img/hotels/hotel-last.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hotels__card__last__text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 200%;
+  color: #fff;
+}
+
+.hotels__card__last__text::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.hotels__card__last__text:hover {
+  color: #fff;
+}
+
+.hotels__card {
+  transition: 0.3s ease;
+}
+
+.hotels__card path,
+.hotels__card svg {
+  transition: 0.3s ease;
+}
+
+.hotels__card:hover .hotels__card__last svg {
+  translate: 5px 0;
 }
